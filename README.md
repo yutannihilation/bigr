@@ -12,7 +12,7 @@ devtools::install_github("yutannihilation/bigr")
 
 ## Example
 
-[This presentation] is knitted from this Rmd:
+[This presentation](https://yutannihilation.github.io/bigr/demo.html) is knitted from this Rmd:
 
 ````md
 ---
