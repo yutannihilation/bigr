@@ -10,7 +10,6 @@ big_presentation <- function(...) {
   pre_processor <- function(metadata, input_file, runtime, knit_meta, files_dir,
                               output_dir) {
     if (identical(.Platform$OS.type, "windows")) {
-      browser()
       big_path <- rmarkdown::relative_to(
         output_dir,
         rmarkdown::render_supporting_files(
