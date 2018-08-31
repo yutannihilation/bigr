@@ -1,0 +1,14 @@
+Package: bigr
+Type: Package
+Title: R Markdown Template for 'big'
+Version: 0.1.0
+Authors@R: person("Hiroaki", "Yutani", , "yutani.ini@gmail.com", c("aut", "cre"))
+Description: Create HTML5 slides with R Markdown and the JavaScript library 'big'
+    (<https://macwright.org/big/demo.html>)
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 6.1.0
+Imports: 
+    rmarkdown,
+    rlang
